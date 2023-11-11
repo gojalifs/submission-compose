@@ -1,0 +1,1 @@
+package com.ngapak.dev.latihan.watchitimport androidx.compose.runtime.Composableimport androidx.navigation.NavHostControllerimport androidx.navigation.compose.rememberNavControllerimport com.ngapak.dev.latihan.watchit.ui.WatchItNavGraph@Composablefun WatchItApp(    navController: NavHostController = rememberNavController()) {    WatchItNavGraph(navController)}
